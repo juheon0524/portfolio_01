@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컬리-마켓컬리/뷰티컬리</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    
+    <style>
+        #sub2 {width:700px; height:1000px; background-color:gold; margin:0 auto;}
+        h1 {font-size:30px; text-align:center; margin:50px 0px;}
+        .sub_table2 {float:left; margin:0 0 0 200px;}
+        .sub2_table tr td {font-size:20px; line-height:50px; text-align:left;}
+        .sub2_table > table td:first-of-type {width:200px;}
+        .sub2_table > table td:last-of-type {width:500px; background-color:green;}
+        input {padding:10px 50px; margin:5px 10px; width:200px;}
+        
+
+
+    </style>
+</head>
+<body>
+    <header> 
+      <div id="center">
+        <div id="logo">
+          <a href="index.html" target="_self"><img src="https://sudkwld.github.io/MarketKurly/img_1/ico_logo.png" alt="로고이미지"></a>
+        </div>
+
+        <div id="center_text">
+          <ul>
+            <li><a href="index.html" target="_self">마켓컬리</a></li>
+            <li>|</li>
+            <li><span><a href="index.html" target="_self">뷰티컬리</a></span></li>
+          </ul>
+          <form>
+            <input type="text" placeholder="검색어를입력해주세요." class="btn_text">
+            <input type="image" src="img/icon_search.png" alt="서치아이콘" class="btn_search">
+          </form>
+        </div>
+      </div>
+      <div id="login">
+        <ul>
+          <li><span><a href="index.html" target="_self">회원가입</a></span></li>
+          <li>|</li>
+          <li><a href="index.html" target="_self">로그인</a></li>
+          <li>|</li>
+          <li><a href="index.html" target="_self">고객센터</a></li>
+        </ul>
+      </div>
+      <nav>
+        <div id="nav1">
+          <ul>
+            <li><a href="index.html" target="_self">카테고리</a></li>
+          </ul>
+          </div>
+
+        <div id="nav2">
+        <ul>
+          <li><a href="index.html" target="_self">신상품</a></li>
+          <li>베스트</li>
+          <li><a href="index.html" target="_self">알뜰쇼핑</a></li>
+          <li><a href="index.html" target="_self">특가/혜택 </a></li>
+        </ul>
+        </div>
+
+        <div id="nav_icon">
+          <div class="nav_box">
+            <a href="#"><img src="img/nav_icon3.png" alt="네비아이콘3"></a>
+          </div>
+          <div class="nav_box">
+            <a href="#"><img src="img/nav_icon2.png" alt="네비아이콘2"></a>
+          </div>
+          <div class="nav_box">
+            <a href="#"><img src="img/nav_icon1.png" alt="네비아이콘1"></a>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <div id="sub2">
+        <h1>회원가입</h1>
+        <div class="sub2_table">
+            <table>
+              <div class="input_1">
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" value="아이디를 입력해주세요"> <button>중복확인</button></td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="text" value="비밀번호를 입력해주세요"></td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호확인</td>
+                    <td><input type="text" value="비밀번호를 한번 더 입력해주세요"></td>
+                </tr>
+
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" value="이름을 입력해주세요"></td>
+                </tr>
+
+                <tr>
+                    <td>이메일</td>
+                    <td><input type="text" value="예:marketkurly@kurly.com"><button>중복확인</button></td>
+                </tr>
+
+                <tr>
+                    <td>휴대폰</td>
+                    <td><input type="text" value="숫자만 입력해주세요"><button>인증번호 받기</button></td>
+                </tr>
+
+                <tr>
+                    <td>주소</td>
+                    <td><button>주소검색</button></td>
+                </tr>
+
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <input type="radio" name="mun" value="남자"><span>남자</span>
+                        <input type="radio" name="mun" value="여자"><span>여자</span>
+                        <input type="radio" name="mun" value="선택안함" checked><span>선택안함</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>생년월일</td>
+                    <td>
+                        <input type="text" value="YYYY / MM / DD ">
+                    </td>
+                </tr>
+              </div>
+
+                <tr>
+                    <td>추가입력 사항</td>
+                    <td>
+                        <input type="radio" name="mun" value="친구초대 추천인 아이디"><span>친구초대 추천인 아이디</span>
+                        <input type="radio" name="mun" value="참여 이벤트명"><span>참여 이벤트명</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>이용약관동의</td>
+                    <td>
+                      <input  type="checkbox" name="mun" value=""><span>전체 동의합니다.</span><br>
+                      <input  type="checkbox" name="mun" value=""><span>이용약관 동의.</span><br>
+                      <input  type="checkbox" name="mun" value=""><span>개인정보 수집 이용 동의(필수).</span><br>
+                      <input  type="checkbox" name="mun" value=""><span>개인정보 수집 이용 동의(선택).</span><br>
+                      <input  type="checkbox" name="mun" value=""><span>본인은 만 14세 이상입니다.</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+      <div id="footer_first">
+        <div class="footer_box">
+          <h3>고객행복센터</h3>
+          <h5><span>1644-1107</span>월~토요일 오전7시-오후6시</h5>
+          <div class="footer_box3">
+            <button>카카오톡 문의</button>
+            <p>월~토요일|오전7시-오후6시<br>일/공휴일|오전7시-오후1시</p>
+          </div>
+          <div class="footer_box3">
+            <button>1:1 문의</button>
+            <p>365일<br>고객센터 운영시간에 순차적으로 답변드리겠습니다.</p>
+          </div>
+          <div class="footer_box3">
+            <button>대량주문 문의</button>
+            <p>월~금요일|오전9시-오후6시<br>점심시간|낮12시-오후1시</p>
+          </div>
+          <pre>비회원 문의 : help@kurlycorp.com<br>비회원 대량주문 문의 :kurlygift@kurlycorp.com</pre>
+        </div>
+        <div class="footer_box">
+          <ul>
+            <li><a href="#">컬리소개</a></li>
+            <li><a href="#">컬리소개영상</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용안내</a></li>
+          </ul>
+          <p>법인명(상호):주식회사 컬리|사업자등록번호:261-81-23567사업자정보확인<br>통신판매업:제2018-서울강남-01646호|개인정보보호책임자:이원준<br>주소:서울특별시 강남구 테헤란로133,18층(역삼동)|대표이사:김슬아<br>입점문의:입점문의하기|제휴문의:business@kurlycorp.com<br>채용문의:recruit@kurlycorp.com<br>팩스:070-7500-6098</p>
+          <div class="footer_icon1">
+            <a href="#"><img src="img/footer_icon1.jpg" alt="하단아이콘1"></a>
+          </div>
+          <div class="footer_icon2">
+            <a href="#"><img src="img/footer_icon2.jpg" alt="하단아이콘2"></a>
+          </div>
+          <div class="footer_icon3">
+            <a href="#"><img src="img/footer_icon3.jpg" alt="하단아이콘3"></a>
+          </div>
+          <div class="footer_icon4">
+            <a href="#"><img src="img/footer_icon4.jpg" alt="하단아이콘4"></a>
+          </div>
+          <div class="footer_icon5">
+            <a href="#"><img src="img/footer_icon5.jpg" alt="하단아이콘5"></a>
+          </div>
+        </div>
+        <div id="footer_box2">
+            <div class="footer_box2_icon">
+              <a href="#"><img src="img/footer_box2_icon1.jpg" alt="하단박스아이콘1"></a>
+            </div>
+            <p>[인증범위]컬리 쇼핑몰 서비스 개발, 운영<br>
+              (심사받지 않은 물리적 인프라 제외)<br>
+              [유효기간]2022.01.19~2025.01.18</p>
+
+            <div class="footer_box2_icon">
+              <a href="#"><img src="img/footer_box2_icon2.jpg" alt="하단박스아이콘2"></a>
+            </div>
+            <p>개인정보보호 우수 웹사이트<br>
+              개인정보처리시스템인증(ePRIVACYPLUS)<br>.</p>
+
+            <div class="footer_box2_icon">
+              <a href="#"><img src="img/footer_box2_icon3.jpg" alt="하단박스아이콘3"></a>
+            </div>
+            <p>토스페이먼츠 구매안전(에스크로)<br>
+              서비스를 이용하실 수 있습니다.<br>.</p>
+
+            <div class="footer_box2_icon">
+              <a href="#"><img src="img/footer_box2_icon4.jpg" alt="하단박스아이콘4"></a>
+            </div>
+            <p>고객님이 현금으로 결제한 금액에 대해 우리은행과<br>
+              채무지급보증 계약을 체결하여 안전거래를 보장하고<br>
+              있습니다.</p>
+
+            
+        </div>
+          
+        </div>
+      </div>
+
+      <div id="footer_last">
+        <p>컬리에서 판매되는 상품중에는 컬리에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.<br>
+        마켓플레이스(오픈마켓) 상품의 경우 컬러는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 컬리는 해당 상품의 주문, 품질, 교환/환불 등 의무와 책임을 부담하지 않습니다.<br><br>
+          @ KURLY.CORP.ALL.RIGHTS RESERVED</p>
+      </div>
+
+    </footer>
+</body>
+</html>
